@@ -1,5 +1,6 @@
 # SE(3)-Equivariance Learning for Category-level Object Pose Estimation
 Pytorch implementation of SE(3)-Equivariance Learning for Category-level Object Pose Estimation.
+![pipeline](pic/overview.png)
 
 ## Installation
 
@@ -48,7 +49,7 @@ Specify your path to NOCS dataset in  `config/config.py` and `dataloder/dataset.
     python train.py
 ``` 
 
-We provide our pretrain model in `./checkpoints` for fast evaluation.
+We provide our pretrain model on [Google Drive](https://drive.google.com/file/d/141R70doQw6z0jJnyrYfrk-lDCJ8qZ8Zy/view?usp=sharing) for fast evaluation.
 ## Evaluation on NOCS dataset
 
 Specify your path to NOCS dataset in  `config/config.py` and `evaluation/load_data_eval.py`. Run python script for evaluation.
